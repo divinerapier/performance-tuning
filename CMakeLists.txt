@@ -8,3 +8,7 @@ add_executable(performance_tuning main.cpp)
 add_executable(traverse_2d_array ./cpu-cache/traverse_2d_array/main.cpp)
 
 add_executable(branch_predict ./cpu-cache/branch_predict/main.cpp)
+
+add_executable(cpu_migrate ./cpu-cache/cpu_migrate/main.cpp)
+
+target_link_libraries(cpu_migrate pthread)
