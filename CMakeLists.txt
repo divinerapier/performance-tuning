@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(performance_tuning main.cpp)
 
+add_executable(traverse_1d_array ./cpu-cache/traverse_1d_array/main.cpp)
+
 add_executable(traverse_2d_array ./cpu-cache/traverse_2d_array/main.cpp)
 
 add_executable(branch_predict ./cpu-cache/branch_predict/main.cpp)
