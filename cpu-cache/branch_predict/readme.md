@@ -11,6 +11,8 @@
 ``` bash
 mkdir -p build
 cd build
+export CC=$(which clang)
+export CXX=$(which clang++)
 cmake ..
 make branch_predict
 ```
